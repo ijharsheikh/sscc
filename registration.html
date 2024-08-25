@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <table>
+          <!-- Personal Information -->
+          <tr>
+            <td colspan="2"><h2>Personal Information</h2></td>
+          </tr>
+          <tr>
+            <td>Full Name:</td>
+            <td><input type="text" name="name"></td>
+          </tr>
+          <tr>
+            <td>Date of Birth:</td>
+            <td><input type="date" name="dob"></td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Contact Information:</td>
+            <td><input type="text" name="contact"></td>
+          </tr>
+      
+          <!-- Academic Background -->
+          <tr>
+            <td colspan="2"><h2>Academic Background</h2></td>
+          </tr>
+          <tr>
+            <td>Previous School:</td>
+            <td><input type="text" name="prev_school"></td>
+          </tr>
+          <tr>
+            <td>Qualifications:</td>
+            <td><input type="text" name="qualifications"></td>
+          </tr>
+          <tr>
+            <td>Grades/Marks:</td>
+            <td><input type="text" name="grades"></td>
+          </tr>
+      
+          <!-- Program/Course Information -->
+          <tr>
+            <td colspan="2"><h2>Program/Course Information</h2></td>
+          </tr>
+          <tr>
+            <td>Program/Course Name:</td>
+            <td><input type="text" name="program"></td>
+          </tr>
+          <tr>
+            <td>Duration:</td>
+            <td><input type="text" name="duration"></td>
+          </tr>
+      
+          <!-- Identification Documents -->
+          <tr>
+            <td colspan="2"><h2>Identification Documents</h2></td>
+          </tr>
+          <tr>
+            <td>ID Proof:</td>
+            <td><input type="file" name="id_proof"></td>
+          </tr>
+          <tr>
+            <td>Proof of Age:</td>
+            <td><input type="file" name="age_proof"></td>
+          </tr>
+      
+          <!-- Parent/Guardian Information -->
+          <tr>
+            <td colspan="2"><h2>Parent/Guardian Information</h2></td>
+          </tr>
+          <tr>
+            <td>Name:</td>
+            <td><input type="text" name="parent_name"></td>
+          </tr>
+          <tr>
+            <td>Contact Information:</td>
+            <td><input type="text" name="parent_contact"></td>
+          </tr>
+      
+          <!-- Additional Information -->
+          <tr>
+            <td colspan="2"><h2>Additional Information</h2></td>
+          </tr>
+          <tr>
+            <td>Extracurricular Activities:</td>
+            <td><input type="text" name="extracurricular"></td>
+          </tr>
+          <tr>
+            <td>Achievements:</td>
+            <td><input type="text" name="achievements"></td>
+          </tr>
+      
+          <!-- Declaration/Signature -->
+          <tr>
+            <td colspan="2"><h2>Declaration/Signature</h2></td>
+          </tr>
+          <tr>
+            <td>Student/Parent/Guardian Signature:</td>
+            <td><input type="text" name="signature"></td>
+          </tr>
+          <tr>
+            <td>Date:</td>
+            <td><input type="date" name="date"></td>
+          </tr>
+      
+          <!-- Submit Button -->
+          <tr>
+            <td colspan="2"><input type="submit" value="Submit"></td>
+          </tr>
+        </table>
+      </form>
+      
+</body>
+</html>
